@@ -19,7 +19,13 @@ body {
 
 img {
   display: block;
-  width: 100%;
+  width: 5rem;
+}
+
+section {
+  padding: 1.5rem;
+
+  background-color: #f2f2f2;
 }
 
 h2 {
@@ -27,6 +33,12 @@ h2 {
 
   font-size: 2rem;
   text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 li {
