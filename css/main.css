@@ -7,6 +7,7 @@ html {
 
   line-height: 1.5;
   font-family: "Open Sans", sans-serif;
+  background-color: #ccc;
 }
 
 *, *::before, *::after {
@@ -23,15 +24,11 @@ img {
 }
 
 section {
-  padding: 1.5rem;
-
-  background-color: #f2f2f2;
+  padding: 2rem;
 }
 
 h2 {
   margin: 0 0 1.5rem;
-
-  font-size: 2rem;
   text-align: center;
 }
 
@@ -44,15 +41,14 @@ ul {
 li {
   display: flex;
   justify-content: space-between;
-  padding: .5rem 1rem .6rem;
+  align-items: center;
 }
 
 a {
   display: inline-block;
-
+  padding: .5rem 1rem .6rem;
   background-color: #444;
   border: 3px solid #444;
-
   color: #fff;
   text-decoration: none;
 }
